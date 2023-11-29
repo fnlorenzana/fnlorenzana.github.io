@@ -49,40 +49,42 @@ const About = () => {
       <div className="w-5/6">
         <motion.div variants={textVariant()}>
           <img src={aboutme} className="w-20 h-20 animate-spin-slow" alt="" />
-          <h2 className={styles.sectionHeadText}>Radge Daryll A. Carbonel</h2>
+          <h2 className={styles.sectionHeadText}>Francis Lorenzana</h2>
         </motion.div>
         
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          I am Radge Daryll Carbonel, currently 18 years old and born in Baguio City, Benguet. I am a first-year student at University of the Cordilleras who is currently taking the course of Bachelor of Science in Computer Science.
+          Hello there!, I am Francis Emmanuel Zoren N. Lorenzana, currently taking up Bachelor of Science in Computer Science at the University of the Cordilleras. I was born in Tagudin ang graduated there as STEM graduate.
         </motion.p>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          I also graduated from Baguio City National Science High School at rank 15 and Manuel L. Quezon Elementary School at rank 13.
+        I have an immense passion in programming and things which involves science and math. I'm also enthusiastic, hardworking and hopeful. My dream is to become a programmer that can contribute to the advancement of technologies. 
         </motion.p>
         <motion.div variants={fadeIn("", "", 0.1, 1)} className='flex flex-row justify-start items-center mt-5'>
-            <a href='https://www.facebook.com/profile.php?id=61554100254498' target='_blank' rel="norefferer">
+            <a href='https://www.facebook.com/francis.lorenzana.562/' target='_blank' rel="norefferer">
               <FontAwesomeIcon icon={faFacebook} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
             </a>
-            <a href='https://github.com/rcarbon-del' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/fnlorenzanal' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faGithub} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
             </a>
-            <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
+
+            {/* link for the accounts */}
+            {/* <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faInstagram} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
-            </a>
-            <a href='https://twitter.com/rcarbontwt/' target='_blank' rel='noreferrer'>
+            </a> */}
+            {/* <a href='https://twitter.com/rcarbontwt/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faTwitter} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
-            </a>
-            <a href='https://www.linkedin.com/in/rcarbon/' target='_blank' rel='noreferrer'>
+            </a> */}
+            {/* <a href='https://www.linkedin.com/in/rcarbon/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faLinkedin} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
-            </a>
+            </a> */}
             <p className="text-secondary text-[17px] leading-[30px] mr-5" >|</p>
             <p><FontAwesomeIcon icon={faMap} className='text-[#915EFF] text-xl mr-2' /></p>
-            <p className="text-secondary text-[17px] leading-[30px]" >85 Santa Escolastica, Baguio City, Benguet 2600</p>
+            <p className="text-secondary text-[17px] leading-[30px]" >#357 Becques Tagudin, Ilocos Sur</p>
           </motion.div>
           <motion.div variants={fadeIn("", "", 0.1, 1)} className="flex justify-start items-center mt-5">
           <p><FontAwesomeIcon icon={faPhone} className='text-[#915EFF] text-xl mr-2' /></p>
-          <p className="text-secondary text-[17px] leading-[30px] mr-5" >09760304353</p>
+          <p className="text-secondary text-[17px] leading-[30px] mr-5" >09305505546</p>
           <p><FontAwesomeIcon icon={faMailBulk} className='text-[#915EFF] text-xl mr-2' /></p>
-          <p className="text-secondary text-[17px] leading-[30px] mr-5" >contact@rcarbon.me</p>
+          <p className="text-secondary text-[17px] leading-[30px] mr-5" >zorenlorenzana05@gmail.com</p>
           <a href='https://uc-bcf.edu.ph'target='_blank' className="flex"><FontAwesomeIcon icon={faEarth} className='text-[#915EFF] text-xl mr-2' />
           <p className="text-secondary text-[17px] leading-[30px] mr-5" >www.uc-bcf.edu.ph</p></a>
           </motion.div>
@@ -97,14 +99,14 @@ const About = () => {
       
       <div className="mt-10 w-full  object-center text-center items-center">
         <motion.div variants={textVariant()}>
-          <p className={styles.heroSubText}>Skills</p>
+          <p className={styles.heroSubText}>My Skills</p>
         </motion.div>
 
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] leading-[30px]'
         >
-          I can contribute a lot in certain areas of expertise. However, I am continuously trying to improve what I am able to do so that I can be of assistance to any job that I may have in the future. Here is an overview of my current skills:
+          Currently, These were the skills that I honed throughout the years which composed of soft skills and professional skills
         </motion.p>
       </div>
       <div className='mt-5 flex flex-wrap gap-10'>

@@ -28,7 +28,7 @@ import {
     shs,
     mom,
     dad,
-    withsir,
+    sirpogi,
   } from "../assets";
   
   export const navLinks = [
@@ -52,44 +52,44 @@ import {
   
   const services = [
     {
-      title: "Communication",
+      title: "Office Suites",
       icon: web,
-      percentage: "65%",
+      percentage: "60%",
     },
     {
       title: "Programming",
       icon: mobile,
-      percentage: "20%",
+      percentage: "15%",
     },
     {
       title: "Critical Thinking",
-      icon: backend,
-      percentage: "70%",
-    },
-    {
-      title: "Adaptability",
-      icon: creator,
-      percentage: "90%",
-    },
-    {
-      title: "Teamwork",
-      icon: creator,
-      percentage: "90%",
+      icon: web,
+      percentage: "60%",
     },
     {
       title: "Problem Solving",
       icon: web,
+      percentage: "50%",
+    },
+    {
+      title: "Learnability",
+      icon: backend,
+      percentage: "70%",
+    },
+    {
+      title: "Teamwork",
+      icon: web,
       percentage: "65%",
     },
     {
-      title: "Public Speaking",
-      icon: mobile,
-      percentage: "20%",
+      title: "Positive Thinking",
+      icon: backend,
+      percentage: "70%",
     },
     {
-      title: "Responsiveness",
-      icon: creator,
-      percentage: "90%",
+      title: "Time management",
+      icon: web,
+      percentage: "60%",
     },
   ];
   
@@ -232,40 +232,40 @@ import {
   
   const projects = [
     {
-      name: "My Elementary School Experience",
+      name: "My Elementary School Diploma",
       description:
-        "I graduated elementary school at Manuel L. Quezon Elementary School in 2017 with high marks.",
+        "I graduated with honors in Saint Augustine's School for the school year 2016-2017",
       image: elem,
     },
     {
-      name: "My Junior High School Experience",
+      name: "My Junior Highschool Diploma",
       description:
-        "I graduated junior high school at Baguio City National Science High School in 2021 with high marks.",
+        "I graduated with honors in Saint Augustine's School for the school year 2020-2021",
       image: jhs,
     },
     {
       name: "My Senior High School Experience",
       description:
-        "I graduated senior high school at Baguio City National Science High School in 2023 with high marks.",
+        "I graduated as STEM student in Saint Augustine's School for the school year 2022-2023",
       image: shs,
     },
     {
-      name: "Hug with my mother, Elvie",
+      name: "A hug with my mother",
       description:
-        "Thank you for always supporting me and helping me in every way possible Mom.",
+        "This is me giving gratitude to her in exchanage for the love and kindness she showed me",
       image: mom,
     },
     {
-      name: "Handshake with my father, Edgar",
+      name: "A handshake with my father",
       description:
-        " Thank you for everything you have done and will do in the future, Dad!",
+        " This is me giving gratitude to him in exchange for the advices he had given me throughout ",
       image: dad,
     },
     {
-      name: "With Sir Jeremiah Pasion",
+      name: "A handshake with Sir Jeremiah Passion",
       description:
-        "A picture with one of the newer professors here in UC CITCS.",
-      image: withsir,
+        "This is me getting a handshake from one of the faculty of UC CITCS",
+      image: sirpogi,
     },
   ];
   

@@ -20,11 +20,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className='text-[#915EFF]'>Radge Daryll A. Carbonel</span>
+            Welcome, I am <span className='text-[#915EFF]'>Francis Lorenzana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a &nbsp;
-            <ReactTyped strings={["Student", "Gamer", "Rookie Developer"]} typeSpeed={100} loop backSpeed={50} />
+            <ReactTyped strings={["Students Programmer", "Technopile", "Math Enthusiast"]} typeSpeed={100} loop backSpeed={50} />
           </p>
           <img src={silhouette} className='w-[125px] h-[125px] mt-2 animate-pulse' alt='' />
         </div>
@@ -34,13 +34,14 @@ const Hero = () => {
 
     <div className={`absolute top-[14rem] w-full flex justify-center items-center `}>
       <div className='flex flex-row justify-start items-center mt-5'>
-            <a href='https://www.facebook.com/profile.php?id=61554100254498' target='_blank' rel="norefferer">
+            <a href='https://www.facebook.com/francis.lorenzana.562/' target='_blank' rel="norefferer">
               <FontAwesomeIcon icon={faFacebook} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
             </a>
-            <a href='https://github.com/rcarbon-del' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/fnlorenzana' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faGithub} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
+            {/* links for the social accounts */}
             </a>
-            <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
+            {/* <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faInstagram} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
             </a>
             <a href='https://twitter.com/rcarbontwt/' target='_blank' rel='noreferrer'>
@@ -48,7 +49,7 @@ const Hero = () => {
             </a>
             <a href='https://www.linkedin.com/in/rcarbon/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faLinkedin} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
+            </a> */}
           </div>
           </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

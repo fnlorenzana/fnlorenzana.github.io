@@ -41,7 +41,7 @@ const Contact = () => {
         'template_wdbmoum',
         {
           from_name: form.name,
-          to_name: "Radge Carbonel",
+          to_name: "Francis Lorenzana",
           from_email: form.email,
           to_email: "contact@rcarbon.me",
           message: form.message,
@@ -79,12 +79,13 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <motion.div variants={fadeIn("", "", 0.1, 1)} className='flex flex-row justify-start items-center mt-5'>
-            <a href='https://www.facebook.com/profile.php?id=61554100254498' target='_blank' rel="norefferer">
+            <a href='https://www.facebook.com/francis.lorenzana.562/' target='_blank' rel="norefferer">
               <FontAwesomeIcon icon={faFacebook} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
             </a>
-            <a href='https://github.com/rcarbon-del' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/fnlorenzana' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faGithub} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
             </a>
+            {/* links for the accounts
             <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faInstagram} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
             </a>
@@ -93,16 +94,16 @@ const Contact = () => {
             </a>
             <a href='https://www.linkedin.com/in/rcarbon/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faLinkedin} className='text-[#915EFF] text-2xl mr-5 hover:animate-bounce' />
-            </a>
+            </a> */}
             <p className="text-secondary text-[17px] leading-[30px] mr-5" >|</p>
             <p><FontAwesomeIcon icon={faMap} className='text-[#915EFF] text-xl mr-2' /></p>
-            <p className="text-secondary text-[17px] leading-[30px]" >85 Santa Escolastica, Baguio City, Benguet 2600</p>
+            <p className="text-secondary text-[17px] leading-[30px]" >#357 Becques Tagudin, Ilocos Sur</p>
           </motion.div>
           <motion.div variants={fadeIn("", "", 0.1, 1)} className="flex justify-start items-center mt-5">
           <p><FontAwesomeIcon icon={faPhone} className='text-[#915EFF] text-xl mr-2' /></p>
-          <p className="text-secondary text-[17px] leading-[30px] mr-5" >09760304353</p>
+          <p className="text-secondary text-[17px] leading-[30px] mr-5" >+630 550 5546</p>
           <p><FontAwesomeIcon icon={faMailBulk} className='text-[#915EFF] text-xl mr-2' /></p>
-          <p className="text-secondary text-[17px] leading-[30px] mr-5" >contact@rcarbon.me</p>
+          <p className="text-secondary text-[17px] leading-[30px] mr-5" >zorenlorenzana05@gmail.com</p>
           <a href='https://uc-bcf.edu.ph'target='_blank' className="flex"><FontAwesomeIcon icon={faEarth} className='text-[#915EFF] text-xl mr-2' />
           <p className="text-secondary text-[17px] leading-[30px] mr-5" >www.uc-bcf.edu.ph</p></a>
           </motion.div>

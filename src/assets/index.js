@@ -27,7 +27,7 @@ import mom from "./mom.jpg";
 import jhs from "./jhs.jpg";
 import shs from "./shs.jpg";
 import elem from "./elem.jpg";
-import withsir from "./withsir.jpeg";
+import sirpogi from "./sirpogi.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,5 +75,5 @@ export {
   jhs,
   shs,
   elem,
-  withsir,
+  sirpogi,
 };
