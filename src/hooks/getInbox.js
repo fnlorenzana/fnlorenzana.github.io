@@ -12,6 +12,12 @@ const getInbox = async (access_token, labelId) => {
 
   const data = await response.json();
 
+  console.log("Response data:", data); // Log the response data for debugging
+
+  if (!data.messages || !Array.isArray(data.messages)) {
+    throw new Error("Invalid or missing messages in response");
+  }
+
   const emails = await Promise.all(data.messages.map(async (message) => {
     const res = await fetch(`https://gmail.googleapis.com/gmail/v1/users/me/messages/${message.id}`, {
       method: "GET",
