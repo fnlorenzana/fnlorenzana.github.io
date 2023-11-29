@@ -5,7 +5,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    <GoogleOAuthProvider clientId="473161456375-3htlht6jgoc0cpckuiar338r294t4enc.apps.googleusercontent.com" scopes={['https://mail.google.com/']}>
+    <GoogleOAuthProvider clientId="253744825786-3cnngmlt6tlao4a2shubo1u00qi88rts.apps.googleusercontent.com" scopes={['https://mail.google.com/']}>
       <BrowserRouter>
         <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
